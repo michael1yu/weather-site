@@ -1,0 +1,21 @@
+.search {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.search input {
+    width: 50%;
+    border-radius: 25px;
+    font-size: medium;
+    padding: 16px;
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.search input:focus {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 grey;
+    transition: 0.3s;
+}

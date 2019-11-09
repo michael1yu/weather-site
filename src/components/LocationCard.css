@@ -1,0 +1,15 @@
+.card {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 128px;
+    margin-right: 128px;
+    box-shadow: 0 4px 8px 0 #888888;
+    transition: 0.3s;
+    background-color: white;
+    text-align: left;
+}
+
+.card .title{
+    margin-left: 32px;
+}
