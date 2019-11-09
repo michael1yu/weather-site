@@ -41,7 +41,7 @@ const SearchBar = () => {
                     <LocationCard title={location.title} woeid={location.woeid} />
                 </div>
             ))}
-            {locations.results.length == 0 && <h1>No Results</h1>}
+            {inputState.enter && locations.results.length == 0 && <h1>No Results</h1>}
         </div>
     );
 };
